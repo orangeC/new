@@ -6,7 +6,7 @@ class Leftnav extends React.Component {
   render () {
   	let styles={
   		root:{
-  			width:"35%",
+  			width:"25%",
   			fontSize:"25px",
   			marginLeft:"25px",
   			lineHeight:"50px"

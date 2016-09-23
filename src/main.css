@@ -59,4 +59,38 @@
    background-color: deeppink;
    overflow-y: scroll;
    flex-grow: 1;
+   display: flex;
  }
+ .home-content{
+ 	background:url(img/1.jpg);
+ 	background-size: cover;
+ 	background-position: 50% 50%;
+ 	display: flex;
+ 	width: 100%;
+ }
+ .nav-bar{
+ 	align-items: center;
+ 	justify-content: center;
+ 	display: flex;
+ 	width: 100%;
+ 	background-color: rgba(0,0,0,0.5);
+ }
+ .nav-content{
+ 	flex-direction: column;
+ 	text-align: center;
+ }
+ .blog-btn{
+  -webkit-transition: all 450ms ease;
+  transition: all 450ms ease;
+  background-color: #fff;
+  border: 1px solid #FF4081;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: #FF4081;
+  font-size: 14px;
+}
+.blog-btn:hover{
+  color:#fff;
+  background-color: #ff4081;
+}
+ 
